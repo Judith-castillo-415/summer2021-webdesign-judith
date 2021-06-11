@@ -1,0 +1,14 @@
+Last login: Thu Jun 10 11:35:45 on ttys000
+judithcastillo@Judiths-Air ~ % ls
+Desktop		Downloads	Movies		Pictures
+Documents	Library		Music		Public
+judithcastillo@Judiths-Air ~ % cd Desktop
+judithcastillo@Judiths-Air Desktop % ls
+summer2021-webdesign-eduardo	summer2021-webdesign-judith
+judithcastillo@Judiths-Air Desktop % cd summer2021-webdesign-judith
+judithcastillo@Judiths-Air summer2021-webdesign-judith % mkdir homework
+judithcastillo@Judiths-Air summer2021-webdesign-judith % ls
+assignments	handouts	homework	projects
+judithcastillo@Judiths-Air summer2021-webdesign-judith % cd homework
+judithcastillo@Judiths-Air homework % touch homework1-2.txt
+judithcastillo@Judiths-Air homework % 
