@@ -10,6 +10,13 @@
             body{
                 background-color: tan
             }
+/*
+Specificity Values
+One Element = 1 point
+One Class = 10 points
+One ID = 100 points 
+*/
+
             img{
                 height: 200px;
                 border-width: 5px;
@@ -17,10 +24,36 @@
                 border-color: burlywood;
                 border-radius: 20px;
             }
-
+/*Select a class needs to start with a period. Can be applied to multiple elements.*/
            .portrait{
                border-color:cornsilk;
            }
+
+/*Select an id needs to start with the hash symbol. Can ONLY be apppliedto one element(per unique ID)*/
+#surf{
+    box-shadow: 5px 5px grey;
+}
+
+ div{
+     background-color: darkseagreen;
+     width: 600px;
+     border: cornflowerblue solid 3px;
+     border-radius: 10;
+     color: grey;
+
+ }          
+
+div h1{
+    color: grey;
+}
+
+div .portrait{
+    border-color: cornflowerblue;
+}
+#vaca{
+    color: wheat;
+    text-decoration: line-through;
+}
             
         </style>
     </head>
@@ -29,8 +62,18 @@
         <img class="portrait" src="aerialbeach.jpg" alt="Aerial photograph taken from the trees which look down on a group of peopple enoying a sunny day at the beach." />
          <img src="beach.jpg" alt="A picture taken of a girl from an opening of a cave. She is standing on the sandy shore posing." />
          <a href="https.//google.com" target="blank">
-            <img src="surferbeach.jpg" 
+            <img id="surf"  src="surferbeach.jpg" 
             alt="Groups of guys heading towards the beach withe their surfboards in hand" /></a>
         <img class="portrait" src="peekaboobeach.jpg" alt="A creamy white-tan  arched building in which you can get a peek/partial portion of the beach and a palm tree in between the arch" />
+
+        <div>
+            <h1> Beach <span id="vaca">Vacation</span> Photos </h1>
+             <img class="portrait" src="aerialbeach.jpg" alt="Aerial photograph taken from the trees which look down on a group of peopple enoying a sunny day at the beach." />
+            <img src="beach.jpg" alt="A picture taken of a girl from an opening of a cave. She is standing on the sandy shore posing." />
+            <a href="https.//google.com" target="blank">
+            <img id="surf" src="surferbeach.jpg" 
+            alt="Groups of guys heading towards the beach withe their surfboards in hand" /></a>
+            <img class="portrait" src="peekaboobeach.jpg" alt="A creamy white-tan  arched building in which you can get a peek/partial portion of the beach and a palm tree in between the arch" />
+        </div>
     </body>
 </html>
