@@ -5,12 +5,45 @@
         <meta charset="utf-8" />
         <title>Looking at HTML5 Elements</title>
         <style>
+            p {
+                /* When you want to set the value to nothing, use 0with NO units.*/
+                margin-block-start: 0;
+                margin-block-end: 0;
+            }
+            body {
+                margin: 20px;
+                padding: 20;
+            }
+            #redbox {
+                width: 180px;
+                height: 100px;
+                background-color: red;
+                padding-left: 20px;
+                padding-top: 20px;
+                margin-bottom: 20px;
+                margin-left: 20px;
+                border: 5px grey solid;
+                border-radius: 20px;
+            }
+            #greenbox {
+                height: 50px;
+                background-color: green;
+                margin-top: 10px;
+            }
+
 
         </style>
-        
     </head>
     <body>
         <!-- THe header section would include logo, website name, any login/search icons, navigation. This should be the same for every webpage of the website -->
+
+        <div id="redbox">
+            <p>0</p>
+
+            <div is="greenbox">
+                <p>VVVVVVVVVVVVVVV</p>
+            </div>
+        </div>   
         <header>
             <!--The nave element is for your navigation links-->
             <nav></nav>
