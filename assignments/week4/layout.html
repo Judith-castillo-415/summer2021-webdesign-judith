@@ -1,4 +1,4 @@
-f<!DOCTYPE html>
+<!DOCTYPE html>
 
 <html lang="en">
     <head>
@@ -7,20 +7,19 @@ f<!DOCTYPE html>
 
         <style>
             #container {
-                width: 700px;
+                width: 900px;
                 margin-left: auto;
                 margin-right: auto;
             }
 
             #header {
-                background-color: pink;
+                background-color:pink;
                 color:antiquewhite;
-                text-align:center;
+                text-align: center;
                 font-family: "Arial";
                 font-size: 24px;
                 text-transform: uppercase;
                 border-radius: 14px;
-            
             }
 
             #header h1 {
@@ -28,12 +27,12 @@ f<!DOCTYPE html>
             }
 
             #main {
-                margin-top: 28;
+                margin-top: 28px;
                 padding: 28px;
-                background-color: thistle;
+                background-color:thistle;
                 color:indigo;
                 font-family: "Arial";
-                font-size: 24px;
+                font-size: 28px;
                 border-radius: 14px;
                 line-height: 42px;
                 text-align: justify;
@@ -43,11 +42,16 @@ f<!DOCTYPE html>
                 margin-block-start: 0;
             }
 
+            #main #article {
+                display: inline-block;
+                width: 616px;
+                padding-right: 28px;
+            }
 
             #main #section {
                 display: inline-block;
                 width: 200px;
-                /*height:100;*/
+                /* height: 100%; */
                 background-color:navajowhite;
                 vertical-align: top;
                 border-radius: 14px;
@@ -55,13 +59,13 @@ f<!DOCTYPE html>
 
             #footer {
                 margin-top: 28px;
-                background-color: cornsilk;
+                background-color:cornsilk;
                 height: 28px;
                 border-radius: 14px;
                 font-size: 12px;
                 text-align: center;
                 text-transform: uppercase;
-                color:palevioletred;
+                color: palevioletred;
                 font-family: "Arial";
             }
 
@@ -77,15 +81,26 @@ f<!DOCTYPE html>
             </div>
 
             <div id="main">
-                <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus tempora porro nihil cum molestiae ab asperiores atque accusamus optio molestias. Natus, adipisci hic. Sunt a reprehenderit porro quod voluptatum amet.</p>
-                <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi adipisci distinctio repellat excepturi, ad fugiat eos. Error incidunt aliquid nihil illo enim a provident ipsam unde, iste harum eligendi voluptate.</p>
-                <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus eveniet tempore, nesciunt reprehenderit porro autem nulla quidem debitis vitae obcaecati harum repudiandae exercitationem dolorem corrupti natus eius cum dolor ad?</p>
+                <div id="article">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis, velit tempore, assumenda, dolore veniam totam dolorum sint ducimus laboriosam praesentium ipsum accusantium reprehenderit et quam amet rerum cumque perspiciatis adipisci.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla repellat voluptates, exercitationem optio eius, quae culpa magnam sed alias sequi distinctio cupiditate vel unde animi vero blanditiis sit! Delectus, dolor.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae provident ipsa saepe quaerat iure nesciunt, vitae sed! Facere saepe modi, aspernatur eaque odit molestiae aliquam, alias sed dolore quia hic.</p>
+                </div><div id="section">
+                    <img src="tinyteapotpic80.jpg" alt="picnic in the grass with a purple blanket. On top of the blanket there is a white teapot and small purple onions">
+                    <img src="tinyteapotpic50.jpg"  alt="picnic in the grass with a purple blanket. On top of the blanket there is a white teapot and small purple onions">
+                    <img src="tinyteapotpic25.jpg" alt="picnic in the grass with a purple blanket. On top of the blanket there is a white teapot and small purple onions">
+                    <img src="teapotpic.jpg" alt="picnic in the grass with a purple blanket. On top of the blanket there is a white teapot and small purple onions" width=200 height=250> 
+                    <img src="tinyteapotpicthumbretina.jpg" alt="picnic in the grass with a purple blanket. On top of the blanket there is a white teapot and small purple onions" width=200 height=250> 
+
+                </div>
+                
             </div>
 
             <div id="footer">
-                <p> Copyright 2021 </p>
+                <p>Copyright &copy;	2021</p>
             </div>
 
         </div>
-    </body>
+
+    </body>    
 </html>
