@@ -266,6 +266,40 @@
             }
 
             console.log(parseInt(true));
+
+            // Loops, the condition HAS TO CHANGE, or it will continue to run FOREVER (infinite loop).
+
+            // While loop. Checks if the condition is true. If true, execute code block. Rinse and repeat.
+            var counter = 0;
+
+            // In order to avoid INFINITE LOOPS, make sure the condition will sooner or later change to a false.
+            while (counter < 10) {
+                counter = counter + 1;
+
+                console.log(counter);
+            }
+
+            // Do While. Will execute code FIRST, and THEN check condition to run it again. Will always execute code block at least once.
+            do {
+                console.log("I am inside of a loop that has a false condition.");
+            } while (false);
+
+            // For loop. The parenthesis has 3 parts to it: initalization, the condition, the iterator. The iterator part runs AFTER the code block is done.
+            for (var i = 10; i >= 0; i = i - 1) {
+
+                // example if statement inside a for loop.
+                if (i == 7) {
+                    console.log("You got a lucky number!");
+                }
+                
+                // You can put any programming structure inside of loops like this if statement.
+                if (i % 2 == 0) {
+                    console.log("The number " + i + " is even.");
+                } else {
+                    console.log("This number is odd");
+                }
+            }
+
         </script>
     </body>
 </html>
