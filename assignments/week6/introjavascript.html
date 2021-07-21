@@ -300,6 +300,159 @@
                 }
             }
 
+                //Nesting loops
+
+                for (var i = 0; i < 10; i = i +1) {
+
+                    for (var e = 0; e < 10; e = e +1) {
+                    
+                        for (var o = 0; o < 10; o = o +0) {
+                            console.log("hello");
+                        }
+                    }
+                }
+            
+                //Functions, gropof code that runs when function name is called.
+                
+                function myFirstFunction(){
+                    console.log("*")
+                    console.log("**")
+                    console.log("*")
+
+                    for (var i = 0; i < 10; i = i + 1) {
+                        console.log("$");
+                    }
+                }
+
+                /*  myFirstFunction();
+                myFirstFunction();
+                myFirstFunction(); */
+
+                for (var i = 0; i < 100; i = i +1) {
+                    myFirstFunction();
+                }
+            
+                console.log("Done!");
+
+                // Scopes
+
+                var a = "hello";
+
+                function mySecondFunction() {
+                    // var a = "goodbye";
+                    var b = "good day";
+
+                    console.log(a);
+                }
+
+                // Cannot access b variable because it is in a private scope.
+                //console.log(b);
+
+                // console.log(a);
+
+                mySecondFunction();
+
+
+                // USEFUL VARIABLE AND FUNCTION NAMES
+
+                var a = 19;
+                var age = 19;
+                // userAge would be the "best" name of this set.
+                var userAge = 19;
+                var aValueThatIsReallyImportantToAnIndividualBecauseItSignifiesHowLongTheyHaveLived = 19;
+
+                function a() {}
+
+                function someFunction() {}
+                // addTwoNumbers best name for this set.
+                function addTwoNumbers() {}
+
+                function accepts2NumbersAndAddsThemTogether() {}
+
+                // Arguments and Parameters
+                // Argument are the data that WILL BE stored in a Parameter.
+                // Parameter is a special variable that belong to a function.
+
+                function makeItRain(value) {
+
+                    // var strength = value;
+
+                    if (value == 1) {
+                        console.log("A drizzle has started.");
+                    } else if (value == 2) {
+                        console.log("It started raining.");
+                    } else if (value == 3) {
+                        console.log("It's raining cats and dogs.");
+                    } 
+                }
+
+                makeItRain(1);
+
+                makeItRain(3);
+
+                makeItRain(1);
+
+                makeItRain(4);
+
+                // Math.pow()
+                // Math.sqrt()
+
+                function hypotenuse(width, height) {
+                    // var width = 10;
+                    // var height = 4;
+
+                    var squaredWidth = Math.pow(width, 2);
+                    var squaredHeight = Math.pow(height, 2);
+                    
+                    var squaredSum = squaredWidth + squaredHeight;
+
+                    var results = Math.sqrt(squaredSum);
+
+                    console.log(results);
+
+                    // Same code, but in a single line.
+                    // console.log(Math.sqrt((Math.pow(width, 2) + Math.pow(height, 2))));
+                }
+
+                var result = hypotenuse(19, 11);
+
+
+                hypotenuse(4, 16);
+                console.log("Hello there");
+
+                // Returning Values from Functions
+
+                var myVar = 10;
+
+                // "Returning" a value from a variable is as easy as calling it.
+                myVar;
+
+                function exampleFunction() {
+                    var a = 100;
+                    var b = 50;
+
+                    // allows the function to "send back" a single value.
+                    return "Function has finished";
+                }
+
+                var myNumber = exampleFunction();
+
+                console.log(myNumber);
+
+                // Putting it all together for Functions
+
+                function add2Numbers(number1, number2) {
+                    var sum = number1 + number2;
+
+                    return sum;
+                }
+
+                var myResults = add2Numbers(16, 5);
+
+                var sendToConsole = add2Numbers(myResults, myResults);
+
+                console.log(sendToConsole);
+
         </script>
     </body>
 </html>
