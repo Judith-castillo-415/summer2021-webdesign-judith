@@ -1,0 +1,51 @@
+HEADER:
+
+The lettering is thick so you can easily distinguish that it is a title/header. It is nothing too crazy so it is easily readable and not to annoying to look it but enough too catch someones attention so that they know what they are looking at.
+FONT- 
+Anton (Vernon Adams)
+https://fonts.google.com/specimen/Anton
+
+
+
+BODY:
+
+The font is nothing too crazy and has a somewhat classic look but a little different to make it a bit more personalized so it can be "my portfolio." It is slightly similar to the Header so it can have a little bit more "professional" look. 
+FONT-
+EB Garamond (Georg Duffner)
+https://fonts.google.com/specimen/EB+Garamond
+
+
+COLOR PALETTE:
+
+In all honesty I still want to play around with what to use each color for. Most likely I will use the darker ones for the text. The lighter ones for the background. And which ever pops out most for Link Texts. Overall this color palette look professional it isn't to sad because of the subtle pops of colors I will add and it should go pretty well with any pictures I would like to add. This color palette as well works with people that may be colorblind.
+
+Dark- #3E3F45   #121C4A
+
+Light- #B1B4C4   #A2ACDE   #878A96
+
+ICONS/IMAGES:
+
+Bars-
+<i class="fas fa-bars"></i>Bars- 
+https://fontawesome.com/v5.15/icons/bars?style=solid   
+
+Portrait Image-
+/Users/judithcastillo/Downloads/IMG_0176.jpg
+IMG_0176.jpg
+
+THE ABOUT ME PAGE/ HOME PAGE:
+Hello to all and welcome! My name is Judith Castillo and I would like to introduce myself a bit before you begin to browse around the website. I was born in San Francisco, California to immigrant parents who were in search of a better life so that they and their future generations can live in peace and have a better opportunity to succeed. After all their struggles they were able to start two Family owned businesses. From a young age my they would take me everywhere with them so I could learn how to run it one day in future. They believed that by doing so, my siblings and I would have some security in this life if anything were to happen. Although, the businesses are there, they still push us to be more. My parents would tell us, "The only way for a minority to be someone in the US, is to be a super star."  Another phrase that was commonly said to us was, "Don't be a statistic." My parents overall strived and still strive for us to be more in this life. However, they also taught us the importance of giving back to the community. They would take us to volunteer with people who needed help. In particular, they would take us with Missionaries of Charity. All in all, my parents did their best to show the importance of making ourselves better people not only in studies, businesses, but also and most importantly to be good to others, take action, and be involved with social justice.
+
+Nowadays, I am still hoping to be all that my parents want me to be and more. In particular the one that influenced me the most was volunteering. I have traveled around the world learning about different cultures and interacting with locals. During those adventures I would make sure to give some time to volunteer as well. For example, in Mexico I was helping at a day care taking care of the children who's parents could not afford to pay someone to watch over them while they worked. In particular I was working closely with a child whom had autism. In Panama, I got to work with younger children who were abandoned due to the fact that they had disabilities and as well with the elderly who were also abandoned due to their mental health. Those are just some of my many experience. However, the important part one most learn about this is that you have to be the same person wherever you are in the world. When coming back home, I would give talks about my experiences and the importance of learning about each other's cultures, the social dilemmas that occur, and the importance of showing love. At this moment I am working with youth groups and trying to teach them the importance of community, since together we are stronger. 
+
+(I am still deciding/working out how to make my resume more professional but maybe Ill add it to this page or if not the contact page, or make a separate page link for it)
+
+THE CONTACT PAGE:
+Here I am still debating whether to use my current email judithmariarosario@gmail.com or creating a new one. I can maybe add an instagram account to be more "modern" I can also put my GitHub and add a LinkedIn.
+
+THE PROJECTS PAGE:
+I can add little Hobbies/How to's, maybe go in depth on my experiences with my travels, and growing up with immigrant parents. I am still thinking about what the Project Pages really are supposed to be about.
+
+
+
+
