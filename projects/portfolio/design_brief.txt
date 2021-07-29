@@ -1,3 +1,4 @@
+
 HEADER:
 
 The lettering is thick so you can easily distinguish that it is a title/header. It is nothing too crazy so it is easily readable and not to annoying to look it but enough too catch someones attention so that they know what they are looking at.
@@ -48,4 +49,62 @@ I can add little Hobbies/How to's, maybe go in depth on my experiences with my t
 
 
 
+-------------------------PART 2---------------------
+1
+LINK:
+https://aliabdaal.com
+
+Header:Doctor, YouTuber, and Podcaster
+Main:Strategies live healthier, happier, and more productive
+Footer:Ali Abdaal 2021. Built and hosted with Ghost
+
+LIKE:
+-Starts of with "Hey Friends" making it seem more welcoming
+-Explains what the site is about from the start--gets to the point
+-I like the color palette used; calm, bright, and serene
+
+DISLIKE:
+-I didn't really like the emojis used I understand why he put them but its not my favorite
+-There was one font that I didn't like that was meant to to be "extra" different to grab a person's attention
+-certain areas for the layout could have used more spacing
+
+
+
+
+2
+LINK:
+http://grantbaldwin.com
+
+Header:The Speaker Lab
+Main:Become a speaker or hiring him as a speaker
+Footer:2016 Grant Baldwin
+
+LIKE:
+-I like that he created a logo/brand for everyone to see
+-His picture was upfront
+-He put his social media links as well
+
+DISLIKE:
+-I wasn't really a fan of the orange and teals/blues for the color palette
+-He just said "Hi I'm Grant want to hire me?" I don't even know who he is so a more in depth introduction would have been nice. 
+-It was difficult to find the bar icon with size, layout, placement, and color choice
+
+
+3
+LINK:
+https://alkavadlo.com
+
+Header:Al Kavadlo My Philosophy
+Main: Living a healthy life and buying his products
+Footer:2021 copyright Al Kavadlo / All rights reserved/Design by MindTattoos.com
+
+LIKE:
+-He had a picture that caught your attention and was lively upfront
+-It is pretty easy to use and search everything
+-Brand logo and social media links
+
+DISLIKE:
+-I didn't like the font he used 
+-His products were immediately on the home page
+-He only added an exclamation point for the table of contents on his products, he really wanted us to buy his products.
 
