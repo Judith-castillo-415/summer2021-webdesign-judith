@@ -45,13 +45,23 @@ nav ul li a:visited {
 }
 
 main {
-    background-color: #B1B4C4 ;
+    background-color: #B1B4C4;
     overflow: auto;
     padding: 40px;
 }
 
 main#home img {
     width: 195px;
+    margin: 5px;
+}
+
+main#project img {
+    width: 100px;
+    margin: 5px;
+}
+
+main#contact img {
+    width: 100px;
     margin: 5px;
 }
 
